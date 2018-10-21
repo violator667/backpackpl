@@ -57,9 +57,9 @@ class backpackplServiceProvider extends ServiceProvider
     protected function bootForConsole()
     {
         // Publishing the configuration file.
-//        $this->publishes([
-//            __DIR__.'/../config/backpackpl.php' => config_path('backpackpl.php'),
-//        ], 'backpackpl.config');
+        $this->publishes([
+            __DIR__.'/../config/backpackpl.php' => config_path('backpackpl.php'),
+        ], 'backpackpl.config');
 
         // Publishing the views.
         /*$this->publishes([
