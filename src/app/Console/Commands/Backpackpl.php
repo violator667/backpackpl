@@ -37,16 +37,15 @@ class Backpackpl extends Command
      */
     public function handle()
     {
-        $this->line('Yes it runs.');
-        $from_dir = 'vendor/violator667/backpackpl/src';
-        $base = base_path();
-        $the_dir = $base.'/'.$from_dir;
-        $to_dir = $base.'/';
-        $this->line($the_dir);
-        $this->line($to_dir);
-        $this->line('__DIR__');
-        $this->line(__DIR__);
-        \File::copyDirectory($the_dir, $to_dir);
-        $this->line("Is it done?!");
+        $this->line("Sugeruje by polskie tlumaczenie uruchamiac na CZYSTEJ instalacji Backpacka!");
+        if ($this->confirm('Jesli nadpisales pliki widokow (np. list.blade.php) dla Backpacka kontunuujac stracisz swoje zmiany. Jestes pewien, ze chcesz kontunuowac?')) {
+            $from_dir = 'vendor/violator667/backpackpl/src';
+            $base = base_path();
+            $the_dir = $base.'/'.$from_dir;
+            $to_dir = $base.'/';
+            \File::copyDirectory($the_dir, $to_dir);
+            $this->line("Juz po wszystkim ;)");
+        }
+
     }
 }
