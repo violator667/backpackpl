@@ -1,0 +1,43 @@
+{
+    "name": "violator667/backpackpl",
+    "description": "Polish Language for Laravel Backpack",
+    "license": "YUMMY",
+    "authors": [
+        {
+            "name": "Michal Zielonka-Majka",
+            "email": "violator667@gmail.com",
+            "homepage": ""
+        }
+    ],
+    "homepage": "https://github.com/violator667/backpackpl",
+    "keywords": ["Laravel", "backpackpl"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "violator667\\backpackpl\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "violator667\\backpackpl\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "violator667\\backpackpl\\backpackplServiceProvider"
+            ],
+            "aliases": {
+                "backpackpl": "violator667\\backpackpl\\Facades\\backpackpl"
+            }
+        }
+    }
+}
