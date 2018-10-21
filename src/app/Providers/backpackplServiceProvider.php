@@ -31,7 +31,7 @@ class backpackplServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/backpackpl.php', 'backpackpl');
+        $this->mergeConfigFrom(__DIR__.'/../../../config/backpackpl.php', 'backpackpl');
 
         // Register the service the package provides.
         $this->app->singleton('backpackpl', function ($app) {
