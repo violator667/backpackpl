@@ -44,7 +44,8 @@ class Backpackpl extends Command
         $to_dir = $base.'/';
         $this->line($the_dir);
         $this->line($to_dir);
-        $this->line('__DIR__'.__DIR__);
+        $this->line('__DIR__');
+        $this->line(__DIR__);
         \File::copyDirectory($the_dir, $to_dir);
         $this->line("Is it done?!");
     }
