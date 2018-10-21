@@ -28,7 +28,7 @@ $ php artisan backpackpl:addpolish
 
 ## License
 
-Feel free to use it for non commercial projects. If you want to use it in any commercial website [email me](mailto:violator667@gmail.com) me first.
+Feel free to use it for non commercial projects. If you want to use it in any commercial website [email me](mailto:violator667@gmail.com) first.
 
 [ico-version]: https://img.shields.io/packagist/v/violator667/backpackpl.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/violator667/backpackpl.svg?style=flat-square
