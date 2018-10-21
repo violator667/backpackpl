@@ -31,7 +31,7 @@ class backpackplServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../../../config/backpackpl.php', 'backpackpl');
+//        $this->mergeConfigFrom(__DIR__.'/../../../config/backpackpl.php', 'backpackpl');
 
         // Register the service the package provides.
         $this->app->singleton('backpackpl', function ($app) {
@@ -57,9 +57,9 @@ class backpackplServiceProvider extends ServiceProvider
     protected function bootForConsole()
     {
         // Publishing the configuration file.
-        $this->publishes([
-            __DIR__.'/../config/backpackpl.php' => config_path('backpackpl.php'),
-        ], 'backpackpl.config');
+//        $this->publishes([
+//            __DIR__.'/../config/backpackpl.php' => config_path('backpackpl.php'),
+//        ], 'backpackpl.config');
 
         // Publishing the views.
         /*$this->publishes([
