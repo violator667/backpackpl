@@ -20,9 +20,6 @@ class backpackplServiceProvider extends ServiceProvider
 
         // Publishing is only necessary when using the CLI.
         if ($this->app->runningInConsole()) {
-            $this->commands([
-                \violator667\backpackpl\app\Console\Commands\Backpackpl::class,
-            ]);
             $this->bootForConsole();
         }
     }
@@ -80,6 +77,8 @@ class backpackplServiceProvider extends ServiceProvider
         ], 'backpackpl.views');*/
 
         // Registering package commands.
-        // $this->commands([]);
+        $this->commands([
+            \violator667\backpackpl\app\Console\Commands\Backpackpl::class,
+        ]);
     }
 }
