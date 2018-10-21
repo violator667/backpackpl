@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace violator667\backpackpl\app\Console\Commands;
 
 use Illuminate\Console\Command;
 
