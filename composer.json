@@ -2,6 +2,7 @@
     "name": "violator667/backpackpl",
     "description": "Polish Language for Laravel Backpack",
     "license": "proprietary",
+    "version": "v1.0",
     "authors": [
         {
             "name": "Michal Zielonka-Majka",
