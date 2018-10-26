@@ -33,7 +33,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "violator667\\backpackpl\\backpackplServiceProvider"
+                "violator667\\backpackpl\\app\\Providers\\backpackplServiceProvider"
             ],
             "aliases": {
                 "backpackpl": "violator667\\backpackpl\\Facades\\backpackpl"

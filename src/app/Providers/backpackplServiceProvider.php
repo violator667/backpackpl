@@ -1,6 +1,6 @@
 <?php
 
-namespace violator667\backpackpl\src\app\Providers;
+namespace violator667\backpackpl\app\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
