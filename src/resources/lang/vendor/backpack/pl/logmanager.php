@@ -1,11 +1,11 @@
 <?php
 
 return [
-//@todo: translate it :)
     /*
     |--------------------------------------------------------------------------
     | Backpack\LogManager Language Lines
     |--------------------------------------------------------------------------
+    | Polish translation and addons by Michał Zielonka-Majka <violator667@gmail.com>
     */
 
       'log_manager'                 => 'Manadżer logów',//'Log Manager',
